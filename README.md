@@ -97,18 +97,22 @@ to wprost: **system rozumny**. Filozofia projektu opisana w
 
 | | | |
 |---|---|---|
-| ![Home](docs/screenshots/shell_home.png) | ![Home dark](docs/screenshots/shell_home_dark.png) | ![Dialer](docs/screenshots/shell_dialer.png) |
-| Launcher (motyw jasny) | Launcher (motyw ciemny) | Dialer |
-| ![Contacts](docs/screenshots/shell_contacts.png) | ![Settings](docs/screenshots/shell_settings.png) | ![Keyboard](docs/screenshots/shell_keyboard.png) |
+| ![Ekran główny](docs/screenshots/shell_home.png) | ![Mapy](docs/screenshots/shell_maps.png) | ![Dialer](docs/screenshots/shell_dialer.png) |
+| Ekran główny — siatka 2×4 (AMOLED) | Mapy — „dostępne na telefonie" | Dialer |
+| ![Kontakty](docs/screenshots/shell_contacts.png) | ![Ustawienia](docs/screenshots/shell_settings.png) | ![Klawiatura](docs/screenshots/shell_keyboard.png) |
 | Kontakty | Ustawienia | Klawiatura ekranowa |
-| ![Incoming call](docs/screenshots/card_incoming_call.png) | ![Time buffer](docs/screenshots/card_time_buffer.png) | ![Wellbeing](docs/screenshots/card_wellbeing_alert.png) |
+| ![Połączenie](docs/screenshots/card_incoming_call.png) | ![Time buffer](docs/screenshots/card_time_buffer.png) | ![Wellbeing](docs/screenshots/card_wellbeing_alert.png) |
 | Połączenie przychodzące | Time Buffer warning | Wellbeing alert |
-| ![Missed list](docs/screenshots/card_missed_list.png) | ![Idle](docs/screenshots/idle_screen.png) | ![Guardian](docs/screenshots/guardian_nudge.png) |
-| Lista przegapionych | Ekran spoczynku | Strażnik uwagi |
+| ![Nieodebrane](docs/screenshots/card_missed_list.png) | ![Czat](docs/screenshots/shell_chat.png) | ![Strażnik](docs/screenshots/guardian_nudge.png) |
+| Lista przegapionych | Czat — „dostępne na telefonie" | Strażnik uwagi |
+
+**Geometryczny font wektorowy — małe litery i polskie znaki:**
+
+![Font: małe litery i polskie znaki](docs/screenshots/font_lowercase.png)
 
 Wszystkie zrzuty z QEMU 540×960 (portrait, jak na prawdziwym telefonie).
-Czysty 1-bit Atkinson, polskie znaki w typografii 8×8 + geometryczny
-font wektorowy w shell UI.
+Czysty 1-bit Atkinson; geometryczny font wektorowy (wielkie i małe litery
++ polskie znaki) w warstwie UI, font 8×8 dla tekstu pomocniczego.
 
 ---
 

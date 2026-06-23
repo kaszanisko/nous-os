@@ -97,18 +97,22 @@ positioning is in [MANIFESTO.md](MANIFESTO.md) (Polish original).
 
 | | | |
 |---|---|---|
-| ![Home](docs/screenshots/shell_home.png) | ![Home dark](docs/screenshots/shell_home_dark.png) | ![Dialer](docs/screenshots/shell_dialer.png) |
-| Launcher (light theme) | Launcher (dark theme) | Dialer |
+| ![Home](docs/screenshots/shell_home.png) | ![Maps](docs/screenshots/shell_maps.png) | ![Dialer](docs/screenshots/shell_dialer.png) |
+| Home — 2×4 grid (AMOLED) | Maps — "available on the phone" | Dialer |
 | ![Contacts](docs/screenshots/shell_contacts.png) | ![Settings](docs/screenshots/shell_settings.png) | ![Keyboard](docs/screenshots/shell_keyboard.png) |
 | Contacts | Settings | On-screen keyboard |
 | ![Incoming call](docs/screenshots/card_incoming_call.png) | ![Time buffer](docs/screenshots/card_time_buffer.png) | ![Wellbeing](docs/screenshots/card_wellbeing_alert.png) |
 | Incoming call card | Time Buffer warning | Wellbeing alert |
-| ![Missed list](docs/screenshots/card_missed_list.png) | ![Idle](docs/screenshots/idle_screen.png) | ![Guardian](docs/screenshots/guardian_nudge.png) |
-| Missed reminders list | Idle screen | Attention guardian |
+| ![Missed list](docs/screenshots/card_missed_list.png) | ![Chat](docs/screenshots/shell_chat.png) | ![Guardian](docs/screenshots/guardian_nudge.png) |
+| Missed reminders list | Chat — "available on the phone" | Attention guardian |
+
+**Geometric vector font — lowercase letters and Polish diacritics:**
+
+![Font: lowercase and Polish characters](docs/screenshots/font_lowercase.png)
 
 All screenshots from QEMU 540×960 (portrait, as on a real phone).
-Pure 1-bit Atkinson dither, Polish characters in custom 8×8
-typography + geometric vector font for shell UI.
+Pure 1-bit Atkinson dither; geometric vector font (upper- and lowercase
++ Polish characters) in the UI layer, 8×8 font for helper text.
 
 ---
 
